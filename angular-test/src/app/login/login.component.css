@@ -1,0 +1,61 @@
+
+.row{
+    
+    flex-direction:column;
+    padding:2%;
+    justify-content:center;
+    position:relative;
+    display:flex;
+    width:25%;
+    border-radius:4px;
+    background-color:rgb(238,238,238);
+    
+
+}
+body{
+    background-color:red;
+}
+
+.section1{
+    text-align:center;
+}
+.section2{
+    display:flex;
+    justify-content:center;
+}
+img{
+    margin-top:3%;
+    border-radius:50%;
+    width:13em;
+}
+#user, #password{
+    text-indent:5%;
+    border-radius:3px;
+    border:0px;
+    width :100%;
+    height :2.5em;
+    text-align: justify;
+    background-color:rgb(207,207,207);
+    font-size: 20px;
+    margin-bottom:2%
+    
+
+}
+
+.btn{
+    color:white;
+    font-weight: bold;
+    border:0px;
+    font-size:1.5em;
+    border-radius:4px;
+    width:100%;
+    margin-top:2%;
+    padding:2%;
+    background: linear-gradient(230deg, rgba(32,52,64,1) 41%, rgba(32,52,64,0.8287819069069069)59%);
+
+}
+#fpass{
+    color:rgba(116, 118, 119, 0.679);
+    font-size:17px;
+    text-align:center;
+}
