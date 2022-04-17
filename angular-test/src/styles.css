@@ -5,10 +5,14 @@ p{
     font-size:25px;
 }
 html{
-    overflow-y:hidden;
+   
 }
 body{
     margin:0px !important;
     background-size:100% 100%;
-    background: linear-gradient(#203440, #203440)
+    background: linear-gradient(#203440, #203440) 
+}
+a{
+    color:none !important;
+    text-decoration:none !important;
 }

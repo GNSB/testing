@@ -22,10 +22,6 @@ export class LoginComponent implements OnInit {
   }
   login(){
     if(this.user=="123" && this.password=="123"){
-      this.elementRef.nativeElement.ownerDocument
-            .body.style.backgroundColor = '#fff';
-            this.elementRef.nativeElement.ownerDocument
-            .body.style.background = '#fff';
       this.router.navigate(['/panel']);
     }
   }
